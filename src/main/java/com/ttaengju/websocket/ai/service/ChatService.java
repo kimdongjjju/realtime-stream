@@ -1,4 +1,4 @@
-package com.smilegate.websocket.ai.service;
+package com.ttaengju.websocket.ai.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

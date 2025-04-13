@@ -1,4 +1,4 @@
-package com.smilegate.websocket.ai.app.endpoint.handler;
+package com.ttaengju.websocket.ai.app.endpoint.handler;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

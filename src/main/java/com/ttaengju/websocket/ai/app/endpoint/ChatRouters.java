@@ -1,13 +1,10 @@
-package com.smilegate.websocket.ai.app.endpoint;
+package com.ttaengju.websocket.ai.app.endpoint;
 
-import static org.springframework.web.reactive.function.server.RequestPredicates.accept;
-
-import com.smilegate.websocket.ai.app.endpoint.handler.ChatHandler;
+import com.ttaengju.websocket.ai.app.endpoint.handler.ChatHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
-import org.springframework.web.reactive.function.server.RequestPredicate;
 import org.springframework.web.reactive.function.server.RequestPredicates;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.RouterFunctions;

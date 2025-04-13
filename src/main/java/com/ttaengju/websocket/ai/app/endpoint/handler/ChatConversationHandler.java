@@ -1,8 +1,8 @@
-package com.smilegate.websocket.ai.app.endpoint.handler;
+package com.ttaengju.websocket.ai.app.endpoint.handler;
 
 
-import com.smilegate.websocket.ai.app.endpoint.request.ChatConversationRequest;
-import com.smilegate.websocket.ai.app.endpoint.response.ChatConversationResponse;
+import com.ttaengju.websocket.ai.app.endpoint.request.ChatConversationRequest;
+import com.ttaengju.websocket.ai.app.endpoint.response.ChatConversationResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;

@@ -1,6 +1,5 @@
-package com.smilegate.websocket.ai.app.endpoint.handler;
+package com.ttaengju.websocket.ai.app.endpoint.handler;
 
-import com.smilegate.websocket.ai.app.endpoint.request.ChatConnectionRequest;
 import io.netty.channel.ChannelOption;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 import java.net.URI;
@@ -14,7 +13,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import org.springframework.web.reactive.socket.client.ReactorNettyWebSocketClient;
-import org.springframework.web.reactive.socket.client.WebSocketClient;
 import reactor.core.publisher.Mono;
 import reactor.netty.http.client.HttpClient;
 import reactor.netty.tcp.TcpClient;

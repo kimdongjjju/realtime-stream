@@ -1,4 +1,4 @@
-package com.smilegate.websocket.ai.app.endpoint.response;
+package com.ttaengju.websocket.ai.app.endpoint.response;
 
 import lombok.Builder;
 import lombok.Data;

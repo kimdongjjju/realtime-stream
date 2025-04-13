@@ -1,6 +1,6 @@
-package com.smilegate.websocket.ai.config;
+package com.ttaengju.websocket.ai.config;
 
-import com.smilegate.websocket.ai.app.endpoint.handler.WebSocketHandler;
+import com.ttaengju.websocket.ai.app.endpoint.handler.WebSocketHandler;
 import java.util.HashMap;
 import java.util.Map;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.smilegate.websocket.ai.app.endpoint.request;
+package com.ttaengju.websocket.ai.app.endpoint.request;
 
 import lombok.Data;
 
