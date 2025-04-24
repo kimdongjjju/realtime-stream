@@ -3,6 +3,7 @@ package com.ttaengju.websocket.ai.app.endpoint;
 import com.ttaengju.websocket.ai.app.endpoint.handler.ChatHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
+
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
 import org.springframework.web.reactive.function.server.RequestPredicates;
@@ -18,9 +19,10 @@ public class ChatRouters {
     public RouterFunction<ServerResponse> chatRoute(ChatHandler chatHandler) {
         return RouterFunctions.route()
                 .path("/chat", config -> config
-                        .nest(RequestPredicates.accept(MediaType.APPLICATION_JSON), builder -> builder
+                        .nest(
+                                RequestPredicates.accept(MediaType.APPLICATION_JSON), builder -> builder
                                 .POST("/connection/{id}", chatHandler::connectionChatting)
-                                .GET("/users", RequestPredicates.accept(MediaType.APPLICATION_JSON), chatHandler::getUserNameBySession)
+                                .GET("/users", chatHandler::getUserNameBySession)
                         )
                 )
                 .after((req, res) -> {
